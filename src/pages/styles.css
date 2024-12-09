@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.form-title {
+    font-size: 2rem; /* Aumentar el tamaño de la fuente */
+    font-weight: bold; /* Hacer el texto en negrita */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    outline: 2px solid #007bff; /* Agregar outline a los contenedores */
+}
+
+.form-check-input {
+    margin-right: 10px;
+    outline: 2px solid #007bff; /* Agregar outline al checkbox */
+}
+
+.centered-container {
+    position: relative;
+    background-color: #000000; /* Change to your preferred background color */
+    color: #fff; /* Change to your preferred text color */
+    min-height: 100vh; /* Ensure the container takes the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.centered-content {
+    text-align: center;
+    margin: 10px;
+}
+
+.centered-title {
+    color: #6af134;
+    font-size: 3rem;
+    margin-bottom: 20px; /* Reducir el margen inferior */
+    text-shadow: 
+        -1px -1px 0 #000000,  
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000; /* Contorno negro */
+}
+
+.centered-unity {
+    width: 640px; /* Ajustar el ancho del componente Unity */
+    height: 360px; /* Ajustar la altura del componente Unity */
+    margin-bottom: 5px;
+    border: 2px solid #6af134; /* Añadir un borde al componente Unity */
+    border-radius: 10px; /* Añadir borde redondeado para un aspecto más atractivo */
+}
+
+.button {
+    background-color: #6af134;
+    border: none;
+    color: rgb(58, 3, 3);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    text-shadow: 
+        -1px -1px 0 #000000,  
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000; /* Contorno negro */
+}
+
+.button:hover {
+    background-color: #6af134;
+}

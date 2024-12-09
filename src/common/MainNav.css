@@ -1,0 +1,35 @@
+/* MainNav.css */
+.navbar {
+    background-color: #04d342!important; 
+}
+
+.navbar .nav-link {
+    color: #FFFFFF !important;
+
+    text-shadow: 
+        -1px -1px 0 #000000,  
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000;
+}
+
+.navbar .nav-link:hover {
+    color: #79d662 !important; 
+
+    text-shadow: 
+        -1px -1px 0 #000000,  
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000; 
+}
+
+.navbar .nav-item.active .nav-link {
+    font-weight: bold; 
+    
+    text-shadow: 
+        -1px -1px 0 #000000,  
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000; 
+    border-bottom: 2px solid #FFFFFF; 
+}

@@ -1,0 +1,12 @@
+/* MainFooter.css */
+#main-footer {
+    background-color: #04d342; 
+    color: #d1d1d1; 
+    padding: 45px 0;
+  
+    text-shadow: 
+        -1px -1px 0 #000000,  
+         1px -1px 0 #000000,
+        -1px  1px 0 #000000,
+         1px  1px 0 #000000; 
+}
